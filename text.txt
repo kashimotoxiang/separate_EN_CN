@@ -1,0 +1,561 @@
+constructor建构式
+declaration宣告式
+definition定义式
+destructor解构式
+expression算式（运算式）
+function函式
+pattern范式、模式、样式
+program程式
+signature标记式（签名式/署名式）
+assembly（装）配件
+component组件
+construct构件
+control控件
+event事件
+hardware硬件
+object物件
+part零件、部件
+singleton单件
+software软件
+work工件、机件
+adapter配接器
+allocator配置器
+compiler编译器
+container容器
+iterator迭代器
+linker连结器
+listener监听器
+interpreter直译器
+translator转译器/翻译器
+class类别
+type型别
+generalized泛化
+specialized特化
+overloaded多载化（重载）
+polymorphism多型
+genericity泛型
+process行程/进程（大陆用语）
+thread绪程/线程（大陆用语）
+programming编程
+
+#define预定义
+abstract抽象的
+abstraction抽象体、抽象物、抽象性
+access存取、访问
+access level访问级别
+access function访问函数
+activate激活
+active作用中的
+adapter适配器
+address地址
+address space位址空间，定址空间
+address-ofoperator取地址操作符
+aggregation聚合
+algorithm算法
+allocate分配
+allocator分配器
+application应用、应用程序
+applicationframework应用程序框架
+architecture体系结构
+argument叁数
+array数组
+arrowoperator箭头操作符
+assembly装配件
+assemblylanguage汇编语言
+assert(ion)断言
+assign赋值
+assignment赋值、分配
+assignmentoperator赋值操作符
+associated相关的、关联、相应的
+associativecontainer关联式容器
+atomic原子的
+attribute属性、特性
+audio音频
+A.I.人工智能
+background背景（用於图形着色）
+backward compatible向下兼容
+bandwidth带宽
+baseclass基类
+basetype基础型别(等同於baseclass)
+batch批处理
+benefit收益
+best viable function最佳可行函式
+binarysearch二分查找
+binarytree二叉树
+binaryfunction双叁函数
+binaryoperator二元操作符
+binding绑定
+bit位
+bitfield位域
+bitmap位图
+bitwise以bit为单元逐一
+bitwisecopy位拷贝
+block块、区块、语句块
+boolean布尔值
+border边框
+brace(curlybrace)花括弧、花括号
+bracket(squarebrakcet)方括弧、方括号
+breakpoint断点
+build建造、构筑、建置（MS用语）
+build-in内置
+bus总线
+business业务
+buttons按钮
+byte字节
+cache高速缓存
+call调用
+callback回调
+calloperator调用操作符
+candidatefunction候选函数
+chain链
+character字符
+checkbox复选框
+checkedexception可控式异常(Java)
+checkbutton复选按钮
+childclass子类
+class类
+classbody类体
+classdeclaration类声明
+classdefinition类定义
+class derivation list类继承列表
+classhead类头
+class hierarchy类层次体系
+classlibrary类库
+classtemplate类模板
+classtemplatepartialspecializations类模板部分特化
+classtemplatespecializations类模板特化
+cleanup清理、清除
+client客户
+client-server客户/服务器
+clipboard剪贴板
+clone克隆
+collection集合?
+combobox组合框
+commandline命令行
+communication通讯
+compatible兼容
+compiletime编译期、编译时
+compiler编译器
+component组件
+composition组合
+computer计算机、电脑
+concept概念
+concrete实在的
+concurrent并发
+configuration配置
+connection连接
+constraint约束（条件）
+construct构件
+container容器
+containment包容
+context环境、上下文
+control控件
+console控制台
+const常数（constant的缩写，C++关键字）
+constant常量
+constructor（ctor）构造函数
+copy(v)拷贝
+copy(n)复件,副本
+cover覆盖
+create创建
+creation创建
+cursor光标
+custom定制
+data数据
+database数据库
+Database  schema数据库结构纲目
+Data member数据成员、成员变量
+Data structure数据结构
+datagram数据报文
+deadlock死锁
+debug调试
+debugger调试器
+declaration声明
+Deduction推导、推断
+default缺省、默认
+defer推迟
+definition定义
+delegate委托
+delegation（同上）
+demarshal反编列散集
+dereference提领（取出指标所指物体的内容）
+Dereference operator dereference（提领）运算子*
+Derived class派生类
+Design by contract契约式设计
+Design pattern设计模式
+destroy摧毁、销毁
+destructor（dtor）析构函数
+device设备
+dialog对话窗、对话盒对话框
+directive(编译)指示符
+directory目录
+disk盘
+dispatch分派
+Distributed computing分布式计算
+document文档
+Dot operator(圆)点操作符
+driver驱动（程序）
+Dynamic binding动态绑定
+efficiency效率
+efficient高效
+End user终端用户
+entity实体、物体
+encapsulation封装
+Enclosing class外围类
+enum(enumeration)枚举
+enumerators枚举成员、枚举器
+equal相等
+equality相等性
+Equality operator等号操作符
+equivalence等价性
+equivalent等价
+Escape code转义码
+evaluate评估
+event事件
+Event driven事件驱动的
+exception异常
+Exception declaration异常声明
+Exception handling异常处理、异常处理机制
+Exception specification异常规范
+exit退出
+explicit显式
+export引出、导出
+expression表达式
+facility设施、设备
+feature特性
+field字段,值域（Java）
+file文件
+firmware固件
+flag标记
+Flash memory闪存
+flexibility灵活性
+flush刷新
+font字体
+form窗体
+Formal parameter形式叁数
+Forward declaration前置声明
+forwarding转发
+Forwarding function转发函数
+fractal分形
+framework框架
+Full specialization全特化（
+function函数
+Function call operator同call operator
+Function object函数对象
+Function overloaded resolution函数重载解决（方案）
+functionality功能
+Function template函数模板
+functor仿函式、函子
+game游戏
+generate生成
+generic一般化的、通用的、泛化
+Generic algorithm通用算法
+getter(相对于setter)取值函式
+global全局的
+Global object全域物件全局对象
+Global scope resolution operator全局范围解析操作符
+group组?
+Group box分组框
+Guard clause卫语句
+GUI图形界面
+handshaking握手协商
+handle句柄
+handler处理函数
+hard-coded硬编码的
+hard-copy屏幕截图
+Hard disk硬盘
+hardware硬件
+Hash table哈希表、散列表
+Header file头文件
+heap堆
+hierarchy层次结构（体系）
+hook钩子
+hyperlink超链接
+icon图标
+IDE集成开发环境
+identifier标识符
+If and only if当且仅当
+Illinois伊利诺斯
+image图象
+immediate base直接上层基类
+immediate derived直接下层派生类
+immutability不变性
+immutable不可变（的）
+implement实现
+implementation实作品、实作体、实作码、实件	实现
+implicit隐式
+import导入
+increment operator增加操作符
+infinite loop无限循环
+infinite recursive无限递归
+information信息
+infrastructure公共基础建设
+inheritance继承、继承机制
+inline内联
+inline expansion内联展开
+initialization初始化
+initialization list初始值列表
+initialize初始化
+inner class内隐类别		内嵌类
+instance实例
+instantiated实例化
+instantiation实例
+integer(integral)整型（的）
+integrate集成
+interacts交互
+interface接口
+For GUI界面
+Internet互联网/因特网
+interpreter解释器
+invariants恒常性,约束条件			约束条件
+invoke调用
+iterate迭代
+iterative反覆的，迭代的
+iterator迭代器
+iteration迭代
+item项、条款、项目
+label标签
+laser激光
+level层(级)
+library库、函数库
+lifetime生命期、寿命
+link连接,链接
+linker连接器
+Literal constant字面常数
+list列表、表、链表
+listbox列表框
+listener	倾听器
+load装载
+loader装载器、载入器
+local局部的
+Local object局部对象
+lock机锁
+loop循环
+lvalue左值
+macro宏
+Magic number魔法数
+maintain维护
+manipulator操纵器
+marshal编列列集
+mechanism机制
+member成员
+Member access operator成员存取操作符
+Member function成员函数
+Member initialization list成员初始值列表
+成员初值列
+Member wise以成员为单位
+Member wise copy以members为单元逐一复制
+memory内存
+menu菜单
+message消息
+message based基於消息的
+message loop消息环
+method(java)方法、行为、函式			方法
+meta-超-元-
+micro微
+middleware中间件
+modeling模塑
+modeling language塑模语言，建模语言
+modem调制解调器
+module模块
+modifier饰词 修饰符
+Most derived class 最底层的派生类
+mouse鼠标
+mutable可变的
+multi-tasking多任务
+namespace名字空间、命名空间
+native本地的、固有的
+nested class嵌套类
+network网络
+network card网卡
+object对象
+object based基於对象的
+object file目标文件
+object model对象模型
+object-oriented面向对象的
+online在线
+opaque不透明的
+operand操作数
+operating system(OS)操作系统
+operation操作
+operator操作符、运算符
+option选项
+ordinary常规的
+overflow溢出（underflow:下溢）
+overhead额外开销
+overload重载
+overloaded function多载化函式重载的函数
+overloaded operator被重载的操作符
+overloaded set重载集合
+override重载、改写、重新定义
+package包
+pair对组
+palette调色盘、组件盘、工具箱
+pane窗格
+parallel并行
+parameter叁数、形式叁数、形叁
+parameter list叁数列表
+parent class父类
+parentheses圆括弧、圆括号
+parse解析
+part零件 部件
+partial specialization局部特化
+Pass by address传地址
+Pass by reference按引用传递
+Pass by value按值传递
+pattern模式
+performance性能
+persistence持久性
+pixel像素
+platform平台
+pointer指针
+poll轮询
+polymorphism多态
+popup弹出式
+port端口
+Postfix后置式
+precedence优先序
+prefix前置式
+preprocessor预处理器
+prime素数
+primitive type基本型别
+print打印
+printer打印机
+priority优先权
+procedure过程
+procedural程式的、过程化的
+process进程
+profile评测
+profiler效能（性能）评测器
+programmer程序员
+programming编程
+progress bar进度指示器
+project项目、工程
+property属性
+protocol协议
+pseudo code伪码
+qualified限定
+qualifier限定修饰词
+quality质量
+queue队列
+radian弧度
+radio button单选按钮
+raise引起、引发
+random number随机数
+range范围、区间
+rank等级
+raw未经处理的
+record记录
+record set记录集
+recursive递归
+re-direction重定向
+refactoring重构
+refer叁考
+refer to指向、指涉、指代
+reference引用、叁考
+register寄存器
+reflection反射、映像
+relational database关系数据库
+represent表述，表现
+resolve解析
+resolution决议程序、决议过程解析过程
+resolution分辨率
+restriction局限
+return返回
+return type返回类型
+return value返回值
+robust健壮
+robustness健壮性
+routine例程
+runtime运行期、运行时
+Common language runtime(CLR)译为「通用语言执行层」
+rvalue右值
+save存储
+schedule调度
+scheduler调度程序
+scheme结构纲目、组织纲目
+scrollbar滚动条
+scope生存空间
+Scope operator生存空间操作符
+Scope resolution operator生存空间解析操作符
+screen屏幕
+search查找
+semantics语义
+Sequential container顺序式容器
+server服务器、服务端
+serial串行
+serialization序列化
+setter(相对于getter)设值函式
+signal信号
+signature签名
+slider滑块
+slot槽
+Smart pointer智能指针
+snapshot屏幕截图
+specialization特化
+specification规格、规范
+splitter切分窗口
+software软件
+solution方案
+source源码、源代码
+stack栈
+stack unwinding 栈辗转开解
+standard library标准程式库
+Standard template library标准模板程式库
+statement语句、声明
+status bar状态条
+STL standard template library
+stream流
+string字符串
+subroutine次常式/副程式
+subscript operator下标操作符
+subtype子类型
+support支持
+suspend挂起
+symbol记号
+syntax语法
+tag标记
+target目标
+task switch任务切换
+template模板
+Template argument deduction模板叁数推导
+Template explicit specialization模板显式特化
+template parameter模板叁数
+temporary object临时对象
+text文本
+text file文本文件
+thread线程
+thread safe多线程安全
+throw丢掷、引发
+token符号、标记
+transaction事务
+transparent(ly)透通的(地)
+traverse遍历
+trigger触发
+type类型
+UML unified modeling language统一建模语言
+unary function一元函式				单叁函数
+unary operator一元操作符
+underflow下溢
+unchecked exception不可控异常(Java)
+unqualified未经资格修饰
+user interface用户界面
+variable变量
+vector向量
+viable可行的
+viable function可行函数
+video视频
+view视图
+view(2)映件
+virtual function虚函数
+virtual machine虚拟机
+virtual memory虚内存,虚存
+volatile易挥发的、易变
+vowel元音字母
+window窗口
+window function窗口函数
+window procedure窗口过程
+word单词
+word processor字处理器
+wrapper外覆、外包 包装
+
