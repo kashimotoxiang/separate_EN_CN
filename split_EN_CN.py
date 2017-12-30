@@ -24,13 +24,11 @@ def split_EN_CN(i_contents):
     o_contents=['1']
     for i in range(0, len(i_contents)):
         str = i_contents[i]
+
         # 中文
-        if str == '\n':
-            continue
-        elif flag == 1:
-            if isalp(str):
-                # print("\n", end="")
-                o_contents.append('\n')
+        # 等待换行
+        if flag == 1:
+            if str == '\n':
                 flag = 0
 
         # 英文
@@ -39,7 +37,7 @@ def split_EN_CN(i_contents):
                 o_contents.append('@')
                 flag = 1
         o_contents.append(str)
-        
+
     return ''.join(o_contents)
 
 

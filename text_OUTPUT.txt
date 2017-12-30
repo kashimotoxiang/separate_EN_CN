@@ -1,590 +1,561 @@
-constructor
-建构式@declaration
-宣告式@definition
-定义式@destructor
-解构式@expression
-算式（运算式）@function
-函式@pattern
-范式、模式、样式@program
-程式@signature
-标记式（签名式@/
-署名式）@assembly
-（装）配件@component
-组件@construct
-构件@control
-控件@event
-事件@hardware
-硬件@object
-物件@part
-零件、部件@singleton
-单件@software
-软件@work
-工件、机件@adapter
-配接器@allocator
-配置器@compiler
-编译器@container
-容器@iterator
-迭代器@linker
-连结器@listener
-监听器@interpreter
-直译器@translator
-转译器@/
-翻译器@class
-类别@type
-型别@generalized
-泛化@specialized
-特化@overloaded
-多载化（重载）@polymorphism
-多型@genericity
-泛型@process
-行程@/
-进程（大陆用语）@thread
-绪程@/
-线程（大陆用语）@programming
-编程@#define
-预定义@abstract
-抽象的@abstraction
-抽象体、抽象物、抽象性@access
-存取、访问@access level
-访问级别@access function
-访问函数@activate
-激活@active
-作用中的@adapter
-适配器@address
-地址@address space
-位址空间，定址空间@address-ofoperator
-取地址操作符@aggregation
-聚合@algorithm
-算法@allocate
-分配@allocator
-分配器@application
-应用、应用程序@applicationframework
-应用程序框架@architecture
-体系结构@argument
-叁数@array
-数组@arrowoperator
-箭头操作符@assembly
-装配件@assemblylanguage
-汇编语言@assert(ion)
-断言@assign
-赋值@assignment
-赋值、分配@assignmentoperator
-赋值操作符@associated
-相关的、关联、相应的@associativecontainer
-关联式容器@atomic
-原子的@attribute
-属性、特性@audio
-音频@A.I.
-人工智能@background
-背景（用於图形着色）@backward compatible
-向下兼容@bandwidth
-带宽@baseclass
-基类@basetype
-基础型别@(
-等同於@baseclass)batch
-批处理@benefit
-收益@best viable function
-最佳可行函式@binarysearch
-二分查找@binarytree
-二叉树@binaryfunction
-双叁函数@binaryoperator
-二元操作符@binding
-绑定@bit
-位@bitfield
-位域@bitmap
-位图@bitwise
-以@bit
-为单元逐一@bitwisecopy
-位拷贝@block
-块、区块、语句块@boolean
-布尔值@border
-边框@brace(curlybrace)
-花括弧、花括号@bracket(squarebrakcet)
-方括弧、方括号@breakpoint
-断点@build
-建造、构筑、建置（@MS
-用语）@build-in
-内置@bus
-总线@business
-业务@buttons
-按钮@byte
-字节@cache
-高速缓存@call
-调用@callback
-回调@calloperator
-调用操作符@candidatefunction
-候选函数@chain
-链@character
-字符@checkbox
-复选框@checkedexception
-可控式异常@(Java)checkbutton
-复选按钮@childclass
-子类@class
-类@classbody
-类体@classdeclaration
-类声明@classdefinition
-类定义@class derivation list
-类继承列表@classhead
-类头@class hierarchy
-类层次体系@classlibrary
-类库@classtemplate
-类模板@classtemplatepartialspecializations
-类模板部分特化@classtemplatespecializations
-类模板特化@cleanup
-清理、清除@client
-客户@client-server
-客户@/
-服务器@clipboard
-剪贴板@clone
-克隆@collection
-集合@?combobox
-组合框@commandline
-命令行@communication
-通讯@compatible
-兼容@compiletime
-编译期、编译时@compiler
-编译器@component
-组件@composition
-组合@computer
-计算机、电脑@concept
-概念@concrete
-实在的@concurrent
-并发@configuration
-配置@connection
-连接@constraint
-约束（条件）@construct
-构件@container
-容器@containment
-包容@context
-环境、上下文@control
-控件@console
-控制台@const
-常数（@constant
-的缩写，@C++
-关键字）@constant
-常量@constructor
-（@ctor
-）构造函数@copy(v)
-拷贝@copy(n)
-复件@,
-副本@cover
-覆盖@create
-创建@creation
-创建@cursor
-光标@custom
-定制@data
-数据@database
-数据库@Database  schema
-数据库结构纲目@Data member
-数据成员、成员变量@Data structure
-数据结构@datagram
-数据报文@deadlock
-死锁@debug
-调试@debugger
-调试器@declaration
-声明@Deduction
-推导、推断@default
-缺省、默认@defer
-推迟@definition
-定义@delegate
-委托@delegation
-（同上）@demarshal
-反编列散集@dereference
-提领（取出指标所指物体的内容）@Dereference operator dereference
-（提领）运算子@*Derived class
-派生类@Design by contract
-契约式设计@Design pattern
-设计模式@destroy
-摧毁、销毁@destructor
-（@dtor
-）析构函数@device
-设备@dialog
-对话窗、对话盒对话框@directive(
-编译@)
-指示符@directory
-目录@disk
-盘@dispatch
-分派@Distributed computing
-分布式计算@document
-文档@Dot operator(
-圆@)
-点操作符@driver
-驱动（程序）@Dynamic binding
-动态绑定@efficiency
-效率@efficient
-高效@End user
-终端用户@entity
-实体、物体@encapsulation
-封装@Enclosing class
-外围类@enum(enumeration)
-枚举@enumerators
-枚举成员、枚举器@equal
-相等@equality
-相等性@Equality operator
-等号操作符@equivalence
-等价性@equivalent
-等价@Escape code
-转义码@evaluate
-评估@event
-事件@Event driven
-事件驱动的@exception
-异常@Exception declaration
-异常声明@Exception handling
-异常处理、异常处理机制@Exception specification
-异常规范@exit
-退出@explicit
-显式@export
-引出、导出@expression
-表达式@facility
-设施、设备@feature
-特性@field
-字段@,
-值域（@Java
-）@file
-文件@firmware
-固件@flag
-标记@Flash memory
-闪存@flexibility
-灵活性@flush
-刷新@font
-字体@form
-窗体@Formal parameter
-形式叁数@Forward declaration
-前置声明@forwarding
-转发@Forwarding function
-转发函数@fractal
-分形@framework
-框架@Full specialization
-全特化（@function
-函数@Function call operator
-同@call operatorFunction object
-函数对象@Function overloaded resolution
-函数重载解决（方案）@functionality
-功能@Function template
-函数模板@functor
-仿函式、函子@game
-游戏@generate
-生成@generic
-一般化的、通用的、泛化@Generic algorithm
-通用算法@getter(
-相对于@setter)
-取值函式@global
-全局的@Global object
-全域物件全局对象@Global scope resolution operator
-全局范围解析操作符@group
-组@?Group box
-分组框@Guard clause
-卫语句@GUI
-图形界面@handshaking
-握手协商@handle
-句柄@handler
-处理函数@hard-coded
-硬编码的@hard-copy
-屏幕截图@Hard disk
-硬盘@hardware
-硬件@Hash table
-哈希表、散列表@Header file
-头文件@heap
-堆@hierarchy
-层次结构（体系）@hook
-钩子@hyperlink
-超链接@icon
-图标@IDE
-集成开发环境@identifier
-标识符@If and only if
-当且仅当@Illinois
-伊利诺斯@image
-图象@immediate base
-直接上层基类@immediate derived
-直接下层派生类@immutability
-不变性@immutable
-不可变（的）@implement
-实现@implementation
-实作品、实作体、实作码、实件实现@implicit
-隐式@import
-导入@increment operator
-增加操作符@infinite loop
-无限循环@infinite recursive
-无限递归@information
-信息@infrastructure
-公共基础建设@inheritance
-继承、继承机制@inline
-内联@inline expansion
-内联展开@initialization
-初始化@initialization list
-初始值列表@initialize
-初始化@inner class
-内隐类别内嵌类@instance
-实例@instantiated
-实例化@instantiation
-实例@integer(integral)
-整型（的）@integrate
-集成@interacts
-交互@interface
-接口@For GUI
-界面@Internet
-互联网@/
-因特网@interpreter
-解释器@invariants
-恒常性@,
-约束条件约束条件@invoke
-调用@iterate
-迭代@iterative
-反覆的，迭代的@iterator
-迭代器@iteration
-迭代@item
-项、条款、项目@label
-标签@laser
-激光@level
-层@(
-级@)library
-库、函数库@lifetime
-生命期、寿命@link
-连接@,
-链接@linker
-连接器@Literal constant
-字面常数@list
-列表、表、链表@listbox
-列表框@listener
-倾听器@load
-装载@loader
-装载器、载入器@local
-局部的@Local object
-局部对象@lock
-机锁@loop
-循环@lvalue
-左值@macro
-宏@Magic number
-魔法数@maintain
-维护@manipulator
-操纵器@marshal
-编列列集@mechanism
-机制@member
-成员@Member access operator
-成员存取操作符@Member function
-成员函数@Member initialization list
-成员初始值列表成员初值列@Member wise
-以成员为单位@Member wise copy
-以@members
-为单元逐一复制@memory
-内存@menu
-菜单@message
-消息@message based
-基於消息的@message loop
-消息环@method(java)
-方法、行为、函式方法@meta-
-超@-
-元@-micro
-微@middleware
-中间件@modeling
-模塑@modeling language
-塑模语言，建模语言@modem
-调制解调器@module
-模块@modifier
-饰词@
-修饰符@Most derived class
-最底层的派生类@mouse
-鼠标@mutable
-可变的@multi-tasking
-多任务@namespace
-名字空间、命名空间@native
-本地的、固有的@nested class
-嵌套类@network
-网络@network card
-网卡@object
-对象@object based
-基於对象的@object file
-目标文件@object model
-对象模型@object-oriented
-面向对象的@online
-在线@opaque
-不透明的@operand
-操作数@operating system(OS)
-操作系统@operation
-操作@operator
-操作符、运算符@option
-选项@ordinary
-常规的@overflow
-溢出（@underflow:
-下溢）@overhead
-额外开销@overload
-重载@overloaded function
-多载化函式重载的函数@overloaded operator
-被重载的操作符@overloaded set
-重载集合@override
-重载、改写、重新定义@package
-包@pair
-对组@palette
-调色盘、组件盘、工具箱@pane
-窗格@parallel
-并行@parameter
-叁数、形式叁数、形叁@parameter list
-叁数列表@parent class
-父类@parentheses
-圆括弧、圆括号@parse
-解析@part
-零件@
-部件@partial specialization
-局部特化@Pass by address
-传地址@Pass by reference
-按引用传递@Pass by value
-按值传递@pattern
-模式@performance
-性能@persistence
-持久性@pixel
-像素@platform
-平台@pointer
-指针@poll
-轮询@polymorphism
-多态@popup
-弹出式@port
-端口@Postfix
-后置式@precedence
-优先序@prefix
-前置式@preprocessor
-预处理器@prime
-素数@primitive type
-基本型别@print
-打印@printer
-打印机@priority
-优先权@procedure
-过程@procedural
-程式的、过程化的@process
-进程@profile
-评测@profiler
-效能（性能）评测器@programmer
-程序员@programming
-编程@progress bar
-进度指示器@project
-项目、工程@property
-属性@protocol
-协议@pseudo code
-伪码@qualified
-限定@qualifier
-限定修饰词@quality
-质量@queue
-队列@radian
-弧度@radio button
-单选按钮@raise
-引起、引发@random number
-随机数@range
-范围、区间@rank
-等级@raw
-未经处理的@record
-记录@record set
-记录集@recursive
-递归@re-direction
-重定向@refactoring
-重构@refer
-叁考@refer to
-指向、指涉、指代@reference
-引用、叁考@register
-寄存器@reflection
-反射、映像@relational database
-关系数据库@represent
-表述，表现@resolve
-解析@resolution
-决议程序、决议过程解析过程@resolution
-分辨率@restriction
-局限@return
-返回@return type
-返回类型@return value
-返回值@robust
-健壮@robustness
-健壮性@routine
-例程@runtime
-运行期、运行时@Common language runtime(CLR)
-译为「通用语言执行层」@rvalue
-右值@save
-存储@schedule
-调度@scheduler
-调度程序@scheme
-结构纲目、组织纲目@scrollbar
-滚动条@scope
-生存空间@Scope operator
-生存空间操作符@Scope resolution operator
-生存空间解析操作符@screen
-屏幕@search
-查找@semantics
-语义@Sequential container
-顺序式容器@server
-服务器、服务端@serial
-串行@serialization
-序列化@setter(
-相对于@getter)
-设值函式@signal
-信号@signature
-签名@slider
-滑块@slot
-槽@Smart pointer
-智能指针@snapshot
-屏幕截图@specialization
-特化@specification
-规格、规范@splitter
-切分窗口@software
-软件@solution
-方案@source
-源码、源代码@stack
-栈@stack unwinding
-栈辗转开解@standard library
-标准程式库@Standard template library
-标准模板程式库@statement
-语句、声明@status bar
-状态条@STL standard template librarystream
-流@string
-字符串@subroutine
-次常式@/
-副程式@subscript operator
-下标操作符@subtype
-子类型@support
-支持@suspend
-挂起@symbol
-记号@syntax
-语法@tag
-标记@target
-目标@task switch
-任务切换@template
-模板@Template argument deduction
-模板叁数推导@Template explicit specialization
-模板显式特化@template parameter
-模板叁数@temporary object
-临时对象@text
-文本@text file
-文本文件@thread
-线程@thread safe
-多线程安全@throw
-丢掷、引发@token
-符号、标记@transaction
-事务@transparent(ly)
-透通的@(
-地@)traverse
-遍历@trigger
-触发@type
-类型@UML unified modeling language
-统一建模语言@unary function
-一元函式单叁函数@unary operator
-一元操作符@underflow
-下溢@unchecked exception
-不可控异常@(Java)unqualified
-未经资格修饰@user interface
-用户界面@variable
-变量@vector
-向量@viable
-可行的@viable function
-可行函数@video
-视频@view
-视图@view(2)
-映件@virtual function
-虚函数@virtual machine
-虚拟机@virtual memory
-虚内存@,
-虚存@volatile
-易挥发的、易变@vowel
-元音字母@window
-窗口@window function
-窗口函数@window procedure
-窗口过程@word
-单词@word processor
-字处理器@wrapper
-外覆、外包@
-包装@1
+1constructor@建构式
+declaration@宣告式
+definition@定义式
+destructor@解构式
+expression@算式（运算式）
+function@函式
+pattern@范式、模式、样式
+program@程式
+signature@标记式（签名式/署名式）
+assembly@（装）配件
+component@组件
+construct@构件
+control@控件
+event@事件
+hardware@硬件
+object@物件
+part@零件、部件
+singleton@单件
+software@软件
+work@工件、机件
+adapter@配接器
+allocator@配置器
+compiler@编译器
+container@容器
+iterator@迭代器
+linker@连结器
+listener@监听器
+interpreter@直译器
+translator@转译器/翻译器
+class@类别
+type@型别
+generalized@泛化
+specialized@特化
+overloaded@多载化（重载）
+polymorphism@多型
+genericity@泛型
+process@行程/进程（大陆用语）
+thread@绪程/线程（大陆用语）
+programming@编程
+
+#define@预定义
+abstract@抽象的
+abstraction@抽象体、抽象物、抽象性
+access@存取、访问
+access level@访问级别
+access function@访问函数
+activate@激活
+active@作用中的
+adapter@适配器
+address@地址
+address space@位址空间，定址空间
+address-ofoperator@取地址操作符
+aggregation@聚合
+algorithm@算法
+allocate@分配
+allocator@分配器
+application@应用、应用程序
+applicationframework@应用程序框架
+architecture@体系结构
+argument@叁数
+array@数组
+arrowoperator@箭头操作符
+assembly@装配件
+assemblylanguage@汇编语言
+assert(ion)@断言
+assign@赋值
+assignment@赋值、分配
+assignmentoperator@赋值操作符
+associated@相关的、关联、相应的
+associativecontainer@关联式容器
+atomic@原子的
+attribute@属性、特性
+audio@音频
+A.I.@人工智能
+background@背景（用於图形着色）
+backward compatible@向下兼容
+bandwidth@带宽
+baseclass@基类
+basetype@基础型别(等同於baseclass)
+batch@批处理
+benefit@收益
+best viable function@最佳可行函式
+binarysearch@二分查找
+binarytree@二叉树
+binaryfunction@双叁函数
+binaryoperator@二元操作符
+binding@绑定
+bit@位
+bitfield@位域
+bitmap@位图
+bitwise@以bit为单元逐一
+bitwisecopy@位拷贝
+block@块、区块、语句块
+boolean@布尔值
+border@边框
+brace(curlybrace)@花括弧、花括号
+bracket(squarebrakcet)@方括弧、方括号
+breakpoint@断点
+build@建造、构筑、建置（MS用语）
+build-in@内置
+bus@总线
+business@业务
+buttons@按钮
+byte@字节
+cache@高速缓存
+call@调用
+callback@回调
+calloperator@调用操作符
+candidatefunction@候选函数
+chain@链
+character@字符
+checkbox@复选框
+checkedexception@可控式异常(Java)
+checkbutton@复选按钮
+childclass@子类
+class@类
+classbody@类体
+classdeclaration@类声明
+classdefinition@类定义
+class derivation list@类继承列表
+classhead@类头
+class hierarchy@类层次体系
+classlibrary@类库
+classtemplate@类模板
+classtemplatepartialspecializations@类模板部分特化
+classtemplatespecializations@类模板特化
+cleanup@清理、清除
+client@客户
+client-server@客户/服务器
+clipboard@剪贴板
+clone@克隆
+collection@集合?
+combobox@组合框
+commandline@命令行
+communication@通讯
+compatible@兼容
+compiletime@编译期、编译时
+compiler@编译器
+component@组件
+composition@组合
+computer@计算机、电脑
+concept@概念
+concrete@实在的
+concurrent@并发
+configuration@配置
+connection@连接
+constraint@约束（条件）
+construct@构件
+container@容器
+containment@包容
+context@环境、上下文
+control@控件
+console@控制台
+const@常数（constant的缩写，C++关键字）
+constant@常量
+constructor@（ctor）构造函数
+copy(v)@拷贝
+copy(n)@复件,副本
+cover@覆盖
+create@创建
+creation@创建
+cursor@光标
+custom@定制
+data@数据
+database@数据库
+Database  schema@数据库结构纲目
+Data member@数据成员、成员变量
+Data structure@数据结构
+datagram@数据报文
+deadlock@死锁
+debug@调试
+debugger@调试器
+declaration@声明
+Deduction@推导、推断
+default@缺省、默认
+defer@推迟
+definition@定义
+delegate@委托
+delegation@（同上）
+demarshal@反编列散集
+dereference@提领（取出指标所指物体的内容）
+Dereference operator dereference@（提领）运算子*
+Derived class@派生类
+Design by contract@契约式设计
+Design pattern@设计模式
+destroy@摧毁、销毁
+destructor@（dtor）析构函数
+device@设备
+dialog@对话窗、对话盒对话框
+directive(@编译)指示符
+directory@目录
+disk@盘
+dispatch@分派
+Distributed computing@分布式计算
+document@文档
+Dot operator(@圆)点操作符
+driver@驱动（程序）
+Dynamic binding@动态绑定
+efficiency@效率
+efficient@高效
+End user@终端用户
+entity@实体、物体
+encapsulation@封装
+Enclosing class@外围类
+enum(enumeration)@枚举
+enumerators@枚举成员、枚举器
+equal@相等
+equality@相等性
+Equality operator@等号操作符
+equivalence@等价性
+equivalent@等价
+Escape code@转义码
+evaluate@评估
+event@事件
+Event driven@事件驱动的
+exception@异常
+Exception declaration@异常声明
+Exception handling@异常处理、异常处理机制
+Exception specification@异常规范
+exit@退出
+explicit@显式
+export@引出、导出
+expression@表达式
+facility@设施、设备
+feature@特性
+field@字段,值域（Java）
+file@文件
+firmware@固件
+flag@标记
+Flash memory@闪存
+flexibility@灵活性
+flush@刷新
+font@字体
+form@窗体
+Formal parameter@形式叁数
+Forward declaration@前置声明
+forwarding@转发
+Forwarding function@转发函数
+fractal@分形
+framework@框架
+Full specialization@全特化（
+function@函数
+Function call operator@同call operator
+Function object@函数对象
+Function overloaded resolution@函数重载解决（方案）
+functionality@功能
+Function template@函数模板
+functor@仿函式、函子
+game@游戏
+generate@生成
+generic@一般化的、通用的、泛化
+Generic algorithm@通用算法
+getter(@相对于setter)取值函式
+global@全局的
+Global object@全域物件全局对象
+Global scope resolution operator@全局范围解析操作符
+group@组?
+Group box@分组框
+Guard clause@卫语句
+GUI@图形界面
+handshaking@握手协商
+handle@句柄
+handler@处理函数
+hard-coded@硬编码的
+hard-copy@屏幕截图
+Hard disk@硬盘
+hardware@硬件
+Hash table@哈希表、散列表
+Header file@头文件
+heap@堆
+hierarchy@层次结构（体系）
+hook@钩子
+hyperlink@超链接
+icon@图标
+IDE@集成开发环境
+identifier@标识符
+If and only if@当且仅当
+Illinois@伊利诺斯
+image@图象
+immediate base@直接上层基类
+immediate derived@直接下层派生类
+immutability@不变性
+immutable@不可变（的）
+implement@实现
+implementation@实作品、实作体、实作码、实件实现
+implicit@隐式
+import@导入
+increment operator@增加操作符
+infinite loop@无限循环
+infinite recursive@无限递归
+information@信息
+infrastructure@公共基础建设
+inheritance@继承、继承机制
+inline@内联
+inline expansion@内联展开
+initialization@初始化
+initialization list@初始值列表
+initialize@初始化
+inner class@内隐类别内嵌类
+instance@实例
+instantiated@实例化
+instantiation@实例
+integer(integral)@整型（的）
+integrate@集成
+interacts@交互
+interface@接口
+For GUI@界面
+Internet@互联网/因特网
+interpreter@解释器
+invariants@恒常性,约束条件约束条件
+invoke@调用
+iterate@迭代
+iterative@反覆的，迭代的
+iterator@迭代器
+iteration@迭代
+item@项、条款、项目
+label@标签
+laser@激光
+level@层(级)
+library@库、函数库
+lifetime@生命期、寿命
+link@连接,链接
+linker@连接器
+Literal constant@字面常数
+list@列表、表、链表
+listbox@列表框
+listener@倾听器
+load@装载
+loader@装载器、载入器
+local@局部的
+Local object@局部对象
+lock@机锁
+loop@循环
+lvalue@左值
+macro@宏
+Magic number@魔法数
+maintain@维护
+manipulator@操纵器
+marshal@编列列集
+mechanism@机制
+member@成员
+Member access operator@成员存取操作符
+Member function@成员函数
+Member initialization list@成员初始值列表
+@成员初值列
+Member wise@以成员为单位
+Member wise copy@以members为单元逐一复制
+memory@内存
+menu@菜单
+message@消息
+message based@基於消息的
+message loop@消息环
+method(java)@方法、行为、函式方法
+meta-@超-元-
+micro@微
+middleware@中间件
+modeling@模塑
+modeling language@塑模语言，建模语言
+modem@调制解调器
+module@模块
+modifier@饰词 修饰符
+Most derived class @最底层的派生类
+mouse@鼠标
+mutable@可变的
+multi-tasking@多任务
+namespace@名字空间、命名空间
+native@本地的、固有的
+nested class@嵌套类
+network@网络
+network card@网卡
+object@对象
+object based@基於对象的
+object file@目标文件
+object model@对象模型
+object-oriented@面向对象的
+online@在线
+opaque@不透明的
+operand@操作数
+operating system(OS)@操作系统
+operation@操作
+operator@操作符、运算符
+option@选项
+ordinary@常规的
+overflow@溢出（underflow:下溢）
+overhead@额外开销
+overload@重载
+overloaded function@多载化函式重载的函数
+overloaded operator@被重载的操作符
+overloaded set@重载集合
+override@重载、改写、重新定义
+package@包
+pair@对组
+palette@调色盘、组件盘、工具箱
+pane@窗格
+parallel@并行
+parameter@叁数、形式叁数、形叁
+parameter list@叁数列表
+parent class@父类
+parentheses@圆括弧、圆括号
+parse@解析
+part@零件 部件
+partial specialization@局部特化
+Pass by address@传地址
+Pass by reference@按引用传递
+Pass by value@按值传递
+pattern@模式
+performance@性能
+persistence@持久性
+pixel@像素
+platform@平台
+pointer@指针
+poll@轮询
+polymorphism@多态
+popup@弹出式
+port@端口
+Postfix@后置式
+precedence@优先序
+prefix@前置式
+preprocessor@预处理器
+prime@素数
+primitive type@基本型别
+print@打印
+printer@打印机
+priority@优先权
+procedure@过程
+procedural@程式的、过程化的
+process@进程
+profile@评测
+profiler@效能（性能）评测器
+programmer@程序员
+programming@编程
+progress bar@进度指示器
+project@项目、工程
+property@属性
+protocol@协议
+pseudo code@伪码
+qualified@限定
+qualifier@限定修饰词
+quality@质量
+queue@队列
+radian@弧度
+radio button@单选按钮
+raise@引起、引发
+random number@随机数
+range@范围、区间
+rank@等级
+raw@未经处理的
+record@记录
+record set@记录集
+recursive@递归
+re-direction@重定向
+refactoring@重构
+refer@叁考
+refer to@指向、指涉、指代
+reference@引用、叁考
+register@寄存器
+reflection@反射、映像
+relational database@关系数据库
+represent@表述，表现
+resolve@解析
+resolution@决议程序、决议过程解析过程
+resolution@分辨率
+restriction@局限
+return@返回
+return type@返回类型
+return value@返回值
+robust@健壮
+robustness@健壮性
+routine@例程
+runtime@运行期、运行时
+Common language runtime(CLR)@译为「通用语言执行层」
+rvalue@右值
+save@存储
+schedule@调度
+scheduler@调度程序
+scheme@结构纲目、组织纲目
+scrollbar@滚动条
+scope@生存空间
+Scope operator@生存空间操作符
+Scope resolution operator@生存空间解析操作符
+screen@屏幕
+search@查找
+semantics@语义
+Sequential container@顺序式容器
+server@服务器、服务端
+serial@串行
+serialization@序列化
+setter(@相对于getter)设值函式
+signal@信号
+signature@签名
+slider@滑块
+slot@槽
+Smart pointer@智能指针
+snapshot@屏幕截图
+specialization@特化
+specification@规格、规范
+splitter@切分窗口
+software@软件
+solution@方案
+source@源码、源代码
+stack@栈
+stack unwinding @栈辗转开解
+standard library@标准程式库
+Standard template library@标准模板程式库
+statement@语句、声明
+status bar@状态条
+STL standard template library
+stream@流
+string@字符串
+subroutine@次常式/副程式
+subscript operator@下标操作符
+subtype@子类型
+support@支持
+suspend@挂起
+symbol@记号
+syntax@语法
+tag@标记
+target@目标
+task switch@任务切换
+template@模板
+Template argument deduction@模板叁数推导
+Template explicit specialization@模板显式特化
+template parameter@模板叁数
+temporary object@临时对象
+text@文本
+text file@文本文件
+thread@线程
+thread safe@多线程安全
+throw@丢掷、引发
+token@符号、标记
+transaction@事务
+transparent(ly)@透通的(地)
+traverse@遍历
+trigger@触发
+type@类型
+UML unified modeling language@统一建模语言
+unary function@一元函式单叁函数
+unary operator@一元操作符
+underflow@下溢
+unchecked exception@不可控异常(Java)
+unqualified@未经资格修饰
+user interface@用户界面
+variable@变量
+vector@向量
+viable@可行的
+viable function@可行函数
+video@视频
+view@视图
+view(2)@映件
+virtual function@虚函数
+virtual machine@虚拟机
+virtual memory@虚内存,虚存
+volatile@易挥发的、易变
+vowel@元音字母
+window@窗口
+window function@窗口函数
+window procedure@窗口过程
+word@单词
+word processor@字处理器
+wrapper@外覆、外包 包装
+
