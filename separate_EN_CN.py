@@ -17,12 +17,12 @@ def isalp(a):
         return False
 
 
-def split_EN_CN(i_contents):
+def separate(i_contents):
     '''
     内容分离
     '''
     flag = 0  # 0-英文；1-中文
-    o_contents=['1']
+    o_contents = ['']
     for i in range(0, len(i_contents)):
         str = i_contents[i]
 
@@ -42,19 +42,87 @@ def split_EN_CN(i_contents):
     return ''.join(o_contents)
 
 
+def isUpCase(ch):
+    '''
+    判断是否为大写字母
+    '''
+    if((ch >= "A") & (ch <= "Z")):
+        return True
+    else:
+        return False
+
+
+def autoUpDownCase(contents, mode):
+    '''
+    智能大小写转换
+    全大写的缩写词保持不变
+    一般单词的首字母变成小写
+    '''
+    # mode = 1中-英; 其他英-中
+    if(mode == 1):
+        index = 1
+    else:
+        index = 0
+
+    o_contents = ['']
+
+    try:
+        contents = contents.split("\n")
+        for line in contents:
+            words = line.split("\t")
+            if (len(words)!=2):
+                continue
+            if(mode == 1):
+                cn = words[0][::-1]
+                en = words[1][::-1]
+            else:
+                cn = words[1]
+                en = words[0]
+
+            first_letter = en[0]
+            second_letter = en[1]
+
+            if (isUpCase(first_letter) & ~isUpCase(second_letter)):
+                en = en.lower()
+
+            #文档错误修复
+            def _fix_error(str,i,ch):
+                if(str[i:i]==ch):
+                    return True
+                else:
+                    return False
+
+            if(_fix_error(en,-1,'(')):
+                en=en[0:-1]
+                cn='('+cn
+
+            if(_fix_error(en, -1, '-')):
+                en = en[0:-1]
+
+            o_contents.append(en)
+            o_contents.append('\t')
+            o_contents.append(cn)
+            o_contents.append('\n')
+    except IndexError:
+        print ("autoUpDownCase NameError")
+
+    return ''.join(o_contents)
+
+
 def main():
     # 获取文件名
     filename = sys.argv[1]
     mode = sys.argv[2]
     input = open(filename)
     i_contents = input.read()
+
+    # 清洗文件
     i_contents = i_contents.replace('\t', '')
-    i_contents = i_contents.replace('  ', ' ')
     i_contents = i_contents.replace('  ', ' ')
 
     # 删除多余空行
     rep = re.compile("\n{2,}")
-    i_contents = re.sub(rep, '\n',i_contents)
+    i_contents = re.sub(rep, '\n', i_contents)
 
     outfilename = os.path.splitext(filename)[0] + '_OUTPUT' + '.txt'
     output = open(outfilename, 'w')
@@ -63,12 +131,18 @@ def main():
     if(mode == '1'):
         i_contents = i_contents[::-1]
 
-    s_contents = split_EN_CN(i_contents)
+    s_contents = separate(i_contents)
 
     # 删除无效行
     rep = re.compile("\n\t.*")
-    s_contents = re.sub(rep, '\n',s_contents)
+    s_contents = re.sub(rep, '\n', s_contents)
 
+    # 删除多余空行
+    rep = re.compile("\n{2,}")
+    i_contents = re.sub(rep, '\n', i_contents)
+
+    # 智能大小写转换
+    s_contents = autoUpDownCase(s_contents, mode)
 
     # 保存结果
     if(mode == '1'):

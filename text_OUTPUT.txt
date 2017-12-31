@@ -1,4 +1,4 @@
-1constructor	建构式
+constructor	建构式
 declaration	宣告式
 definition	定义式
 destructor	解构式
@@ -70,7 +70,7 @@ associativecontainer	关联式容器
 atomic	原子的
 attribute	属性、特性
 audio	音频
-A.I.	人工智能
+a.i.	人工智能
 background	背景（用於图形着色）
 backward compatible	向下兼容
 bandwidth	带宽
@@ -162,15 +162,15 @@ cursor	光标
 custom	定制
 data	数据
 database	数据库
-Database schema	数据库结构纲目
-Data member	数据成员、成员变量
-Data structure	数据结构
+database schema	数据库结构纲目
+data member	数据成员、成员变量
+data structure	数据结构
 datagram	数据报文
 deadlock	死锁
 debug	调试
 debugger	调试器
 declaration	声明
-Deduction	推导、推断
+deduction	推导、推断
 default	缺省、默认
 defer	推迟
 definition	定义
@@ -178,10 +178,10 @@ delegate	委托
 delegation	（同上）
 demarshal	反编列散集
 dereference	提领（取出指标所指物体的内容）
-Dereference operator dereference	（提领）运算子*
-Derived class	派生类
-Design by contract	契约式设计
-Design pattern	设计模式
+dereference operator dereference	（提领）运算子*
+derived class	派生类
+design by contract	契约式设计
+design pattern	设计模式
 destroy	摧毁、销毁
 destructor	（dtor）析构函数
 device	设备
@@ -190,32 +190,32 @@ directive(	编译)指示符
 directory	目录
 disk	盘
 dispatch	分派
-Distributed computing	分布式计算
+distributed computing	分布式计算
 document	文档
-Dot operator(	圆)点操作符
+dot operator(	圆)点操作符
 driver	驱动（程序）
-Dynamic binding	动态绑定
+dynamic binding	动态绑定
 efficiency	效率
 efficient	高效
-End user	终端用户
+end user	终端用户
 entity	实体、物体
 encapsulation	封装
-Enclosing class	外围类
+enclosing class	外围类
 enum(enumeration)	枚举
 enumerators	枚举成员、枚举器
 equal	相等
 equality	相等性
-Equality operator	等号操作符
+equality operator	等号操作符
 equivalence	等价性
 equivalent	等价
-Escape code	转义码
+escape code	转义码
 evaluate	评估
 event	事件
-Event driven	事件驱动的
+event driven	事件驱动的
 exception	异常
-Exception declaration	异常声明
-Exception handling	异常处理、异常处理机制
-Exception specification	异常规范
+exception declaration	异常声明
+exception handling	异常处理、异常处理机制
+exception specification	异常规范
 exit	退出
 explicit	显式
 export	引出、导出
@@ -226,46 +226,46 @@ field	字段,值域（Java）
 file	文件
 firmware	固件
 flag	标记
-Flash memory	闪存
+flash memory	闪存
 flexibility	灵活性
 flush	刷新
 font	字体
 form	窗体
-Formal parameter	形式叁数
-Forward declaration	前置声明
+formal parameter	形式叁数
+forward declaration	前置声明
 forwarding	转发
-Forwarding function	转发函数
+forwarding function	转发函数
 fractal	分形
 framework	框架
-Full specialization	全特化（
+full specialization	全特化（
 function	函数
-Function call operator	同call operator
-Function object	函数对象
-Function overloaded resolution	函数重载解决（方案）
+function call operator	同call operator
+function object	函数对象
+function overloaded resolution	函数重载解决（方案）
 functionality	功能
-Function template	函数模板
+function template	函数模板
 functor	仿函式、函子
 game	游戏
 generate	生成
 generic	一般化的、通用的、泛化
-Generic algorithm	通用算法
+generic algorithm	通用算法
 getter(	相对于setter)取值函式
 global	全局的
-Global object	全域物件全局对象
-Global scope resolution operator	全局范围解析操作符
+global object	全域物件全局对象
+global scope resolution operator	全局范围解析操作符
 group	组?
-Group box	分组框
-Guard clause	卫语句
+group box	分组框
+guard clause	卫语句
 GUI	图形界面
 handshaking	握手协商
 handle	句柄
 handler	处理函数
 hard-coded	硬编码的
 hard-copy	屏幕截图
-Hard disk	硬盘
+hard disk	硬盘
 hardware	硬件
-Hash table	哈希表、散列表
-Header file	头文件
+hash table	哈希表、散列表
+header file	头文件
 heap	堆
 hierarchy	层次结构（体系）
 hook	钩子
@@ -273,8 +273,8 @@ hyperlink	超链接
 icon	图标
 IDE	集成开发环境
 identifier	标识符
-If and only if	当且仅当
-Illinois	伊利诺斯
+if and only if	当且仅当
+illinois	伊利诺斯
 image	图象
 immediate base	直接上层基类
 immediate derived	直接下层派生类
@@ -303,8 +303,8 @@ integer(integral)	整型（的）
 integrate	集成
 interacts	交互
 interface	接口
-For GUI	界面
-Internet	互联网/因特网
+for gui	界面
+internet	互联网/因特网
 interpreter	解释器
 invariants	恒常性,约束条件约束条件
 invoke	调用
@@ -320,30 +320,29 @@ library	库、函数库
 lifetime	生命期、寿命
 link	连接,链接
 linker	连接器
-Literal constant	字面常数
+literal constant	字面常数
 list	列表、表、链表
 listbox	列表框
 listener	倾听器
 load	装载
 loader	装载器、载入器
 local	局部的
-Local object	局部对象
+local object	局部对象
 lock	机锁
 loop	循环
 lvalue	左值
 macro	宏
-Magic number	魔法数
+magic number	魔法数
 maintain	维护
 manipulator	操纵器
 marshal	编列列集
 mechanism	机制
 member	成员
-Member access operator	成员存取操作符
-Member function	成员函数
-Member initialization list	成员初始值列表
-
-Member wise	以成员为单位
-Member wise copy	以members为单元逐一复制
+member access operator	成员存取操作符
+member function	成员函数
+member initialization list	成员初始值列表
+member wise	以成员为单位
+member wise copy	以members为单元逐一复制
 memory	内存
 menu	菜单
 message	消息
@@ -358,7 +357,7 @@ modeling language	塑模语言，建模语言
 modem	调制解调器
 module	模块
 modifier	饰词 修饰符
-Most derived class 	最底层的派生类
+most derived class 	最底层的派生类
 mouse	鼠标
 mutable	可变的
 multi-tasking	多任务
@@ -399,9 +398,9 @@ parentheses	圆括弧、圆括号
 parse	解析
 part	零件 部件
 partial specialization	局部特化
-Pass by address	传地址
-Pass by reference	按引用传递
-Pass by value	按值传递
+pass by address	传地址
+pass by reference	按引用传递
+pass by value	按值传递
 pattern	模式
 performance	性能
 persistence	持久性
@@ -412,7 +411,7 @@ poll	轮询
 polymorphism	多态
 popup	弹出式
 port	端口
-Postfix	后置式
+postfix	后置式
 precedence	优先序
 prefix	前置式
 preprocessor	预处理器
@@ -467,7 +466,7 @@ robust	健壮
 robustness	健壮性
 routine	例程
 runtime	运行期、运行时
-Common language runtime(CLR)	译为「通用语言执行层」
+common language runtime(clr)	译为「通用语言执行层」
 rvalue	右值
 save	存储
 schedule	调度
@@ -475,12 +474,12 @@ scheduler	调度程序
 scheme	结构纲目、组织纲目
 scrollbar	滚动条
 scope	生存空间
-Scope operator	生存空间操作符
-Scope resolution operator	生存空间解析操作符
+scope operator	生存空间操作符
+scope resolution operator	生存空间解析操作符
 screen	屏幕
 search	查找
 semantics	语义
-Sequential container	顺序式容器
+sequential container	顺序式容器
 server	服务器、服务端
 serial	串行
 serialization	序列化
@@ -489,7 +488,7 @@ signal	信号
 signature	签名
 slider	滑块
 slot	槽
-Smart pointer	智能指针
+smart pointer	智能指针
 snapshot	屏幕截图
 specialization	特化
 specification	规格、规范
@@ -500,10 +499,9 @@ source	源码、源代码
 stack	栈
 stack unwinding 	栈辗转开解
 standard library	标准程式库
-Standard template library	标准模板程式库
+standard template library	标准模板程式库
 statement	语句、声明
 status bar	状态条
-STL standard template library
 stream	流
 string	字符串
 subroutine	次常式/副程式
@@ -517,8 +515,8 @@ tag	标记
 target	目标
 task switch	任务切换
 template	模板
-Template argument deduction	模板叁数推导
-Template explicit specialization	模板显式特化
+template argument deduction	模板叁数推导
+template explicit specialization	模板显式特化
 template parameter	模板叁数
 temporary object	临时对象
 text	文本
