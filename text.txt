@@ -1,4 +1,4 @@
-constructor建构式
+constructor(好)建构式
 declaration宣告式
 definition定义式
 destructor解构式

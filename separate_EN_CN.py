@@ -42,17 +42,18 @@ def separate(i_contents):
     return ''.join(o_contents)
 
 
-def isUpCase(ch):
+def is_up_case_and_symbol(ch):
     '''
     判断是否为大写字母
     '''
-    if((ch >= "A") & (ch <= "Z")):
+    if(((ch >= "A")& (ch <= "Z"))
+        | (ch == '.')| (ch == '-')):
         return True
     else:
         return False
 
 
-def autoUpDownCase(contents, mode):
+def auto_up_down_case(contents, mode):
     '''
     智能大小写转换
     全大写的缩写词保持不变
@@ -82,12 +83,12 @@ def autoUpDownCase(contents, mode):
             first_letter = en[0]
             second_letter = en[1]
 
-            if (isUpCase(first_letter) & ~isUpCase(second_letter)):
+            if (is_up_case_and_symbol(first_letter) & ~is_up_case_and_symbol(second_letter)):
                 en = en.lower()
 
             #文档错误修复
             def _fix_error(str,i,ch):
-                if(str[i:i]==ch):
+                if(str[i]==ch):
                     return True
                 else:
                     return False
@@ -104,7 +105,7 @@ def autoUpDownCase(contents, mode):
             o_contents.append(cn)
             o_contents.append('\n')
     except IndexError:
-        print ("autoUpDownCase NameError")
+        print ("auto_up_down_case NameError")
 
     return ''.join(o_contents)
 
@@ -142,7 +143,7 @@ def main():
     i_contents = re.sub(rep, '\n', i_contents)
 
     # 智能大小写转换
-    s_contents = autoUpDownCase(s_contents, mode)
+    s_contents = auto_up_down_case(s_contents, mode)
 
     # 保存结果
     if(mode == '1'):
