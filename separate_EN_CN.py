@@ -3,6 +3,7 @@
 import sys
 import os
 import fileinput
+import re
 
 
 def isalp(a):
@@ -34,7 +35,7 @@ def split_EN_CN(i_contents):
         # 英文
         else:
             if not isalp(str):
-                o_contents.append('@')
+                o_contents.append('\t')
                 flag = 1
         o_contents.append(str)
 
@@ -48,6 +49,12 @@ def main():
     input = open(filename)
     i_contents = input.read()
     i_contents = i_contents.replace('\t', '')
+    i_contents = i_contents.replace('  ', ' ')
+    i_contents = i_contents.replace('  ', ' ')
+
+    # 删除多余空行
+    rep = re.compile("\n{2,}")
+    i_contents = re.sub(rep, '\n',i_contents)
 
     outfilename = os.path.splitext(filename)[0] + '_OUTPUT' + '.txt'
     output = open(outfilename, 'w')
@@ -57,6 +64,11 @@ def main():
         i_contents = i_contents[::-1]
 
     s_contents = split_EN_CN(i_contents)
+
+    # 删除无效行
+    rep = re.compile("\n\t.*")
+    s_contents = re.sub(rep, '\n',s_contents)
+
 
     # 保存结果
     if(mode == '1'):
