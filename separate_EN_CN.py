@@ -87,18 +87,24 @@ def auto_up_down_case(contents, mode):
                 en = en.lower()
 
             #文档错误修复
-            def _fix_error(str,i,ch):
+            def _char_detect(str,i,ch):
                 if(str[i]==ch):
                     return True
                 else:
                     return False
 
-            if(_fix_error(en,-1,'(')):
+            if(_char_detect(en,-1,'(')):
                 en=en[0:-1]
                 cn='('+cn
 
-            if(_fix_error(en, -1, '-')):
+            if(_char_detect(en, -1, '-')):
                 en = en[0:-1]
+
+            if(_char_detect(en, -1, ':')):
+                en = en[0:-1]
+
+            if(_char_detect(cn, 0, '：')):
+                cn = cn[1:]
 
             o_contents.append(en)
             o_contents.append('\t')
@@ -120,6 +126,10 @@ def main():
     # 清洗文件
     i_contents = i_contents.replace('\t', '')
     i_contents = i_contents.replace('  ', ' ')
+
+    # 删除每行前多余空格
+    rep = re.compile("\n[ ]{2,}")
+    i_contents = re.sub(rep, '\n', i_contents)
 
     # 删除多余空行
     rep = re.compile("\n{2,}")
